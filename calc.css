@@ -1,0 +1,44 @@
+body{
+    background-color: cornflowerblue;
+}
+
+#calc-contain{
+    background-color: blueviolet;
+    position: relative;
+    width: 800px;
+    border: 10px solid black;
+    border-radius: 12px;
+    margin: 0px auto;
+    padding: 20px 20px 100px 20px;
+  }
+
+  #mubeen{
+    font-size: 50px;
+    font-display: bold;
+    font-display: middle;
+    padding: 0 0 0 100px;
+}
+  input[type=button] {
+    background: lightGray;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  
+  input[type=button]:hover {
+    background-color: black;
+    color: lightblue;
+  }
+  
+  input[type = text] {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 0px 12px black inset;
+  }
